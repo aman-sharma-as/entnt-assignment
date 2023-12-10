@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Gym Trainer Appointment Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+It is a react application used to create, edit and delete appointment for gym client.
 
-In the project directory, you can run:
+## Prerequisites
 
-### `npm start`
+Ensure you have the following installed on your machine:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js: [Download Node.js](https://nodejs.org/)
+- npm (Node Package Manager): Comes with Node.js installation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+1. **Clone the Repository:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/aman-sharma-as/entnt_assignment.git
+    cd entnt_assignment
+    ```
 
-### `npm run build`
+2. **Install Dependencies:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Run the Application:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+    This will start the development server and open your app in your default web browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Build for Production:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm run build
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    This will create a build folder with the optimized production-ready code.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Folder Structure
+```
+├── node_modules (.gitignore)
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo-lg.png
+│   ├── logo-md.png
+│   ├── logo-sm.png
+│   └── manifest.json
+├── src
+│   ├── components
+│   │   ├── Client.css
+│   │   ├── Client.js
+│   │   ├── MainSection.js
+│   │   ├── Navbar.js
+│   │   ├── RightSection.css
+│   │   └── RightSection.js
+│   ├── App.css
+│   ├── App.js
+│   ├── data.js
+│   ├── index.css
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+└── tailwind.config.js
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-  Tailwind: Used to create styling
+-  React Calendar: Used to create custom calendar
+-  React DateTime Picker: Used to create custom date time picker component
+-  React Icons: Used for icons
 
-### Code Splitting
+## Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `npm start`: Start the development server.
+- `npm run build`: Create a production-ready build.
+- `npm test`: Run tests.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
