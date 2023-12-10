@@ -1,5 +1,8 @@
 # Gym Trainer Appointment Dashboard
 
+## Live Preview
+- 🔗 Live Preview Link: [Go to Preview](https://entnt-assignment.vercel.app/)
+
 ## Overview
 
 It is a react application used to create, edit and delete appointment for gym client.
@@ -41,6 +44,24 @@ Ensure you have the following installed on your machine:
     ```
 
     This will create a build folder with the optimized production-ready code.
+
+## Project steps
+- Homepage
+![1](https://github.com/aman-sharma-as/entnt-assignment/assets/55404326/07bd5ed3-495c-4715-9302-15e84d573be7)
+
+- Edit Button
+![2](https://github.com/aman-sharma-as/entnt-assignment/assets/55404326/80d818a6-8398-4717-823e-11680bb08499)
+
+- Add Appointment Button
+![3](https://github.com/aman-sharma-as/entnt-assignment/assets/55404326/049e7f51-4084-431d-ba80-1956f276c6ae)
+
+- Deleting Appointment
+![5](https://github.com/aman-sharma-as/entnt-assignment/assets/55404326/2c5d4cca-77af-4754-a378-f9a2556fdc47)
+
+- Selecting Date on Calendar
+![4](https://github.com/aman-sharma-as/entnt-assignment/assets/55404326/4042c9a8-60b1-4e16-9da9-fc83b5361583)
+
+
 
 ## Folder Structure
 ```
